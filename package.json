@@ -1,0 +1,46 @@
+{
+  "name": "gherkin-report",
+  "description": "Generate a marketing-worthy report of your application's Gherkin features and scenarios, in Word or Markdown format.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jonathan Abbett",
+    "email": "jonathan@act.md",
+    "url": "http://act.md"
+  },
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/actmd/gherkin-report",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/actmd/gherkin-report"
+  },
+  "bugs": {
+    "url": "https://github.com/actmd/gherkin-report/issues"
+  },
+  "main": "index.js",
+  "bin": "cli.js",
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "gherkin": "^3.1.2",
+    "handlebars": "^4.0.5",
+    "minimist": "^1.2.0",
+    "office-clippy": "0.0.8",
+    "tmp": "0.0.28",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  },
+  "keywords": [
+    "gherkin",
+    "cucumber",
+    "bdd",
+    "behave",
+    "markdown"
+  ]
+}
